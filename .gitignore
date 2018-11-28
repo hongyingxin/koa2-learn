@@ -1,0 +1,11 @@
+﻿# Package Files #
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+**/.idea/*
+*.map
+.idea/
+node_modules/
