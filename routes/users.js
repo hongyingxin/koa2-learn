@@ -17,15 +17,15 @@ router.post('/addPerson', async function (ctx) {
     age: ctx.require.body.age
   })
   let code
-  try{
+  try {
     await person.save();
     code = 0
-  }catch(e){
+  } catch (e) {
     code = 1
   }
 
   ctx.body = {
-    code:code
+    code: code
   }
 })
 
